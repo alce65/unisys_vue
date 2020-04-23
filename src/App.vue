@@ -1,12 +1,26 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <router-view/> -->
+    <h1>Componentes en VUE</h1>
+    <saludo></saludo>
+
   </div>
 </template>
+
+<script>
+import Saludo from "./components/Saludo";
+
+export default {
+  components: {
+    //Saludo: Saludo
+    Saludo
+  }
+}
+</script>
 
 <style>
 #app {
