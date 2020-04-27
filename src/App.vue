@@ -7,17 +7,19 @@
     <router-view/> -->
     <h1>Componentes en VUE</h1>
     <saludo></saludo>
-
+    <tools></tools>
   </div>
 </template>
 
 <script>
 import Saludo from "./components/Saludo";
+import Tools from "./components/Tools";
 
 export default {
   components: {
     //Saludo: Saludo
-    Saludo
+    Saludo,
+    Tools
   }
 }
 </script>

@@ -3,13 +3,19 @@
         <p ><span v-once>{{ saludo }}</span>, {{ nombre }}</p>
         <div class="input">
             <input type="text" :placeholder="msg" v-model="nombre">
-            <button v-html="boton" @click.="onBorrar($event)"   ></button>
+            <button v-html="boton" @click="onBorrar($event)"   ></button>
         </div>
+        <mensajes></mensajes>
     </div>
 </template>
 
 <script>
+import Mensajes from './Mensajes'
+
 export default {
+    components: {
+        Mensajes
+    },
     name: 'Saludo',
     data: () => {
         return {
