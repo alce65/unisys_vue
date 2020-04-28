@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Formulario from "../components/Formulario.vue";
+import Demo from '../views/Demo.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +11,16 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/formulario',
+    name: 'Formulario',
+    component: Formulario
+  },
+  {
+    path: '/demo',
+    name: 'Demo',
+    component: Demo
   },
   {
     path: '/about',

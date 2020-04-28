@@ -1,32 +1,19 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
+     <h1>Curso de VUE</h1>
+    <div id="nav">
       <router-link to="/">Home</router-link> |
+      <router-link to="/formulario">Formulario</router-link> |
+      <router-link to="/demo">Demo</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/> -->
-    <h1>Componentes en VUE</h1>
-    <saludo></saludo>
-    <tools></tools>
-    <scope-css></scope-css>
-    <fuente></fuente>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Saludo from "./components/Saludo";
-import Tools from "./components/Tools";
-import ScopeCss from "./components/ScopeCss";
-import Fuente from "./components/Fuente";
 
 export default {
-  components: {
-    //Saludo: Saludo
-    Saludo,
-    Tools,
-    ScopeCss,
-    Fuente
-  }
 }
 </script>
 
