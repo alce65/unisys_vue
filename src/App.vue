@@ -8,18 +8,24 @@
     <h1>Componentes en VUE</h1>
     <saludo></saludo>
     <tools></tools>
+    <scope-css></scope-css>
+    <fuente></fuente>
   </div>
 </template>
 
 <script>
 import Saludo from "./components/Saludo";
 import Tools from "./components/Tools";
+import ScopeCss from "./components/ScopeCss";
+import Fuente from "./components/Fuente";
 
 export default {
   components: {
     //Saludo: Saludo
     Saludo,
-    Tools
+    Tools,
+    ScopeCss,
+    Fuente
   }
 }
 </script>
