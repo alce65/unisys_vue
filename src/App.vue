@@ -8,6 +8,7 @@
       <router-link to="/tareas">Tareas</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/mensajes">Mensajes</router-link> |
+      <router-link to="/vuex">Vuex</router-link>
     </div>
     <router-view></router-view>
   </div>

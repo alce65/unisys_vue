@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Formulario from "../components/Formulario.vue";
 import Demo from '../views/Demo.vue'
 import Mensajes from '../components/Mensajes/Mensajes.vue'
+import Msg_vuex from '../components/Msg_vuex/Msg_vuex.vue'
 
 Vue.use(VueRouter)
 
@@ -41,6 +42,7 @@ Vue.use(VueRouter)
     }
   },
   { path: '/mensajes', name: 'Mensajes', component: Mensajes },
+  { path: '/vuex', name: 'Vuex', component: Msg_vuex },
 ]
 
 const router = new VueRouter({
