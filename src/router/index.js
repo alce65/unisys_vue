@@ -23,6 +23,13 @@ Vue.use(VueRouter)
     component: Demo
   },
   {
+    path: '/tareas',
+    name: 'Tareas',
+    component: () =>{
+      return import('../views/Tareas.vue')
+    }
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting

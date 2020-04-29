@@ -1,8 +1,9 @@
 <template>
   <div class="img-wrapper">
-      <h2>Imagen del dia</h2>
+      <h2><slot name="title"></slot></h2>
       <img :src="imagen" :alt="textoImagen">
       <p>{{textoImagen }}</p>
+      <p><slot name="footer">Aqui iría un comentario</slot></p>
   </div>
 </template>
 
