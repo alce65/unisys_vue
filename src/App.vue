@@ -6,7 +6,8 @@
       <router-link to="/formulario">Formulario</router-link> |
       <router-link to="/demo">Demo</router-link> |
       <router-link to="/tareas">Tareas</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/mensajes">Mensajes</router-link> |
     </div>
     <router-view></router-view>
   </div>

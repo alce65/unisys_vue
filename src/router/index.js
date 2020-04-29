@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Formulario from "../components/Formulario.vue";
 import Demo from '../views/Demo.vue'
+import Mensajes from '../components/Mensajes/Mensajes.vue'
 
 Vue.use(VueRouter)
 
@@ -38,7 +39,8 @@ Vue.use(VueRouter)
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/About.vue')
     }
-  }
+  },
+  { path: '/mensajes', name: 'Mensajes', component: Mensajes },
 ]
 
 const router = new VueRouter({

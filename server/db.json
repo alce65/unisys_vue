@@ -1,0 +1,47 @@
+{
+  "tareas": [
+    {
+      "id": 1,
+      "titulo": "Aprender VUE",
+      "info": "Aprender más VUE para terminar de preparar el curso de Vue",
+      "isCompleted": false
+    }
+  ],
+  "mensajes": [
+    {
+      "id": 1,
+      "titulo": "Tienes un mensaje de tu jefe"
+    },
+    {
+      "id": 2,
+      "titulo": "Recuerda actualizar el SO"
+    },
+    {
+      "id": 3,
+      "titulo": "Otro comentario más"
+    },
+    {
+      "titulo": "Otro más",
+      "id": 4
+    },
+    {
+      "titulo": "Y otro",
+      "id": 5
+    },
+    {
+      "titulo": "El ultimo",
+      "id": 6
+    },
+    {
+      "titulo": "El ultimo",
+      "id": 7
+    },
+    {
+      "titulo": "Uno con strore",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
